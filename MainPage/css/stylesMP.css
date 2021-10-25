@@ -74,19 +74,31 @@
 }
 .img-teamL {
     width: 38%;
-  height: auto;
+    height: auto;
 
 }
 .img-teamA {
     width: 38%;
-  height: auto;
-
-    
+    height: auto;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:227px;
+    width:1226px;
+}
+.mapouter {
+    position:relative;
+    text-align:right;
+    height:227px;
+    width:1226px;
+    flex: 0 0 auto !important;
+    } 
 }
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
-  
+  `}
 }
 .img-sorted{
     display: flex;
