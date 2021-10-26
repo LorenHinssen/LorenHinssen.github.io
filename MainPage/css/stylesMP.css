@@ -6301,6 +6301,9 @@ textarea.form-control-lg {
   background-position: 50%;
   background-size: 100% 100%;
 }
+.map{
+  margin-top: 50px;
+}
 
 /* rtl:options: {
   "autoRename": true,
